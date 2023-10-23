@@ -6,7 +6,7 @@ public class LivroCapaDura extends Livro {
     private Livro livroBase;
 
     public LivroCapaDura(Livro livroBase) {
-        super(livroBase.getTitulo(), livroBase.getAutor(), livroBase.getPreco() + 10); // Suponhamos que a capa dura adicione 10 ao preço
+        super(livroBase.getTitulo(), livroBase.getAutor(), livroBase.getPreco() + 10);
         this.livroBase = livroBase;
     }
 }
